@@ -1,7 +1,7 @@
 # Python - Hello, World
 
-In this project, I began practicing using the interpreter, printing text
-and variables, as well as indexing and slicing strings in Python.
+In this project, Python and shell scripting was used as well as interpreter, printing text
+and variables, indexing and slicing strings in Python.
 
 ## Function Prototypes :floppy_disk:
 
