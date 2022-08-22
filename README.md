@@ -7,7 +7,7 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 
 
 ## Author :
-* [David Atat](github.com/daveeazi)
+* [David Atat](https://github.com/daveeazi)
 
 ## Acknowledgements :pray:
 
