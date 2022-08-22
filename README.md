@@ -6,7 +6,7 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 * [0x00. Python - Hello, World](./0x00-python-hello_world)
 
 
-## Author :
+## Author
 * [David Atat](https://github.com/daveeazi)
 
 ## Acknowledgements :pray:
