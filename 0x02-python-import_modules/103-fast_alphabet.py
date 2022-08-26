@@ -1,2 +1,18 @@
 #!/usr/bin/python3
-import fast_alphabet_103
+
+def lowercaseAlphabets():
+
+    for c in range(97, 123):
+        print(chr(c), end = " ");
+
+    print("");
+
+def uppercaseAlphabets():
+
+    for c in range(65, 91):
+        print(chr(c), end = " ");
+
+    print("");
+
+uppercaseAlphabets();
+lowercaseAlphabets();
