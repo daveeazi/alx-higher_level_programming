@@ -1,27 +1,45 @@
 #!/usr/bin/python3
-
+""" Write a program that imports all functions from
+the file calculator_1.py and handles basic operations.
+"""
 if __name__ == "__main__":
     import sys
-
-    nargs = len(sys.argv) - 1
-    if nargs != 3:
-        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        sys.exit(1)
-
-    op = sys.argv[2]
-    if op != '+' and op != '-' and op != '*' and op != '/':
-        print("Unknown operator. Available operators: +, -, * and /")
-        sys.exit(1)
-
     from calculator_1 import add, sub, mul, div
-    x = int(sys.argv[1])
-    y = int(sys.argv[3])
-
-    if op == '+':
-        print("{} + {} = {}".format(x, y, add(x, y)))
-    elif op == '-':
-        print("{} - {} = {}".format(x, y, sub(x, y)))
-    elif op == '*':
-        print("{} * {} = {}".format(x, y, mul(x, y)))
+    if len(sys.argv) != 4:
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+        exit(1)
+    if sys.argv[2] == "+":
+        sum = add(int(sys.argv[1]), int(sys.argv[3]))
+        print(
+            "{} {} {} = {}".format(
+                sys.argv[1],
+                sys.argv[2],
+                sys.argv[3],
+                sum))
+    elif sys.argv[2] == "-":
+        sub_ = sub(int(sys.argv[1]), int(sys.argv[3]))
+        print(
+            "{} {} {} = {}".format(
+                sys.argv[1],
+                sys.argv[2],
+                sys.argv[3],
+                sub_))
+    elif sys.argv[2] == "*":
+        mul_ = mul(int(sys.argv[1]), int(sys.argv[3]))
+        print(
+            "{} {} {} = {}".format(
+                sys.argv[1],
+                sys.argv[2],
+                sys.argv[3],
+                mul_))
+    elif sys.argv[2] == "/":
+        div_ = div(int(sys.argv[1]), int(sys.argv[3]))
+        print(
+            "{} {} {} = {}".format(
+                sys.argv[1],
+                sys.argv[2],
+                sys.argv[3],
+                div_))
     else:
-        print("{} / {} = {}".format(x, y, div(x, y)))
+        print("Unknown operator. Available operators: +, -, * and /")
+        exit(1)
