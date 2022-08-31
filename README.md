@@ -3,7 +3,7 @@
 <h1 align="center"><img  src="https://rajivpandit.files.wordpress.com/2013/02/python.png" width="600"></h1>
 
 This repository contains programs written for the Higher-level programming track at the ALX Software Engineering Program. In these projects, I learnt Python & SQL, and I also made use of concepts learnt.
-Simultaneously, I continued to reinforce and expand my skills in C and shell scripting. 
+Simultaneously, I continued to reinforce and expand my skills in C and shell scripting.
 
 ## The specific list of projects contained follows:
 
@@ -11,6 +11,7 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 - [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
 - [0x02. Python - import & modules](./0x02-python-import_modules)
 - [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
+- [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)
 
 ## Author
 
