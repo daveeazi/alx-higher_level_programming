@@ -375,4 +375,3 @@ class TestSquare(unittest.TestCase):
         self.assertIsNot(s2, s2c)
         self.assertNotEqual(s1, s1c)
         self.assertNotEqual(s2, s2c)
-
