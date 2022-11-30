@@ -21,6 +21,7 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 - [0x0A. Python - Inheritance](./0x0A-python-inheritance)
 - [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
 - [0x12. JavaScript - Warm up](./0x12-javascript-warm_up)
+- [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
 
 ## Author
 
