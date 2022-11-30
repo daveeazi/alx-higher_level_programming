@@ -1,4 +1,6 @@
 #!/usr/bin/node
-for (const line of ['C is fun', 'Python is cool', 'JavaScript is amazing']) {
-  console.log(line);
+'use strict';
+let args = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+for (let arg in args) {
+  console.log(args[arg]);
 }
