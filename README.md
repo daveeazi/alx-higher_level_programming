@@ -18,13 +18,13 @@ Simultaneously, I continued to reinforce and expand my skills in C and shell scr
 - [0x08. Python - More Classes and Objects](./0x08-python-more_classes)
 - [0x09. Python - Everything is object](./0x09-python-everything_is_object)
 - [0x10. Python - Network #0](./0x10-python-network_0)
+- [0x11. Python - Network #1](./0x11-python-network_1)
 - [0x0B. Python - Input/Output](./0x0B-python-input_output)
 - [0x0A. Python - Inheritance](./0x0A-python-inheritance)
 - [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
 - [0x12. JavaScript - Warm up](./0x12-javascript-warm_up)
 - [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
 - [0x14. JavaScript - Web scraping](./0x14-javascript-web_scraping)
-- [0x11. Python - Network #1](./0x11-python-network_1)
 
 ## Author
 
